@@ -25,6 +25,7 @@ figure {
     margin: 0 auto;
     display: grid;
     gap: 1rem;
+    display: flexbox;
 
 }
 
