@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #545775;
+    font: 1em sans-serif;
+}
+
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+figure {
+    max-width: 1200px;
+    /* Set a maximum width */
+    margin: 0 auto;
+    /* Center the container */
+    display: grid;
+    /* Enable CSS Grid */
+    gap: 1rem;
+    /* Add spacing between grid items */
+}
+
+h1 {
+    color: #545775;
+}
+
+a {
+    color: #FB8B24;
+}
+
+.button {
+    background-color: #FB8B24;
+    color: #FFFFFF;
+    border: 2px solid #545775;
+}
