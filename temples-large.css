@@ -20,8 +20,8 @@ body {
     }
 }
 
-figure {
-    max-width: 300px;
+.figure {
+    max-width: 250px;
     margin: 0 auto;
     display: grid;
     gap: 1rem;

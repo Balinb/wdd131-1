@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="place.css">
+    <link rel="stylesheet" href="place.js">
+    <title>Jamaica</title>
+
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Jamaica</h1>
+    </div>
+    <div class="Jamaica-img">
+        <img srcset="images/Jamaica.jpg" alt="Jamaica" max width="100%" height="80%">
+        <div class="data-box">
+            <h2>Data</h2>
+            <p>Area: 10991 km2</p>
+            <p>Population: 2.83 million</p>
+            <p>Capital: Kingston</p>
+            <p>Languages: English and Patois</p>
+            <p>Currency: Jamaican Dollar</p>
+            <p>Time Zone: UTC-5</p>
+            <p>Calling code: + 1-876</p>
+            <p>Internet TLD: .jm</p>
+        </div>
+        <div class="weather-box">
+            <h2>Weather</h2> <img src="images/1530391_weather_clouds_sun_sunny_icon.svg">
+            <p>Temperature: 29℃</p>
+            <p>Conditions: Mostly Sunny</p>
+            <p>Wind: 5KMPH</p>
+            <p>Wind Chill: </p>
+        </div>
+    </div>
+    <div class="copyright">
+        © 2024 ♦ Balin Benissan ♦ Jamaica Last Modification: 05/10/2024 10:31
+    </div>
+    <form action="" method="post" name="windform">
+        <center>
+            <table border="1" cellpadding="3" cellspacing="0" width="250">
+                <tr>
+                    <td align="center">Wind Speed (MPH) =</td>
+                    <td align="center"><input type="text" name="wind" value="" size="6"></td>
+                </tr>
+                <tr>
+                    <td align="center">Air Temperature (ºF) =</td>
+                    <td align="center"><input type="text" name="temp" value="" size="6"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <br />
+                        <input type="button" value="Calculate Wind Chill" onclick="windChill(this.form)" />
+                        <p><input name="windchill" type="text" value="" size="10"> ºF</p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+
+</html>
