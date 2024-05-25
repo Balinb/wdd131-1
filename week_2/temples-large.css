@@ -6,7 +6,7 @@
 
 body {
     background-color: #FFFFFF;
-    color: #545775;
+    color: #06081b;
     font: 1em sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
     nav ul li {
         flex: 1 1 100%;
     }
-}
+
 
 .figure {
     max-width: 250px;
@@ -54,4 +54,17 @@ a {
     background-color: #FB8B24;
     color: #FFFFFF;
     border: 2px solid #545775;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
+    grid-column: 1/4;
+}
+
+
+
 }

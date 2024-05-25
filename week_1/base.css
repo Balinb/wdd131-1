@@ -1,0 +1,73 @@
+body {
+    background-color: blue; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+.container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+
+.item {
+    background-color: white; 
+    padding: 20px; 
+    text-align: center; 
+    border: 1px solid black; 
+    transition: background-color 0.3s; 
+}
+
+
+.item:hover {
+    background-color: lightgray; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Column styles */
+.left-column {
+    flex: 1;
+    text-align: center;
+}
+
+.middle-column {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.right-column {
+    flex: 1;
+    text-align: center;
+}
+
+/* Profile picture style */
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
