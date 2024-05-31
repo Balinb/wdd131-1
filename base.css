@@ -1,5 +1,5 @@
 body {
-    background-color: blue; 
+    background-color: lightblue; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -15,7 +15,7 @@ body {
 
 
 .item {
-    background-color: white; 
+    background-color: lightblue; 
     padding: 20px; 
     text-align: center; 
     border: 1px solid black; 
@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: lightblue;
 }
 
 /* Column styles */
@@ -49,7 +49,7 @@ body {
 }
 
 .middle-column {
-    flex: 2;
+    flex: 1;
     padding: 0 20px;
 }
 
@@ -60,8 +60,9 @@ body {
 
 /* Profile picture style */
 img {
-    max-width: 100%;
-    border-radius: 50%;
+    max-width: 60%;
+    border-radius: 40%;
+    justify-content: center;
 }
 
 /* Footer style */
