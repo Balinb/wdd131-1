@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="form.js"></script>
+    <title>Product Review Form</title>
+</head>
+
+<body>
+
+   <h1>Product Review Form</h1> 
+    <form action="review.html" method="get">
+        <label for="productName">Product Name:</label>
+        <select id="productName" name="productName" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+        <br>
+
+        <label for="overallRating">Overall Rating:</label>
+        <br>
+        <input type="radio" id="rating1" name="overallRating" value="1" required>
+        <label for="rating1">&#9733;</label>
+        <input type="radio" id="rating2" name="overallRating" value="2" required>
+        <label for="rating2">&#9733 &#9733;</label>
+        <input type="radio" id="rating3" name="overallRating" value="3" required>
+        <label for="rating3">&#9733 &#9733 &#9733;</label>
+        <input type="radio" id="rating4" name="overallRating" value="4" required>
+        <label for="rating4">&#9733 &#9733 &#9733 &#9733;</label>
+        <input type="radio" id="rating5" name="overallRating" value="5" required>
+        <label for="rating5">&#9733 &#9733 &#9733 &#9733 &#9733;</label>
+        <br>
+
+        <label for="installationDate">Date of Installation:</label>
+        <input type="date" id="installationDate" name="installationDate" required>
+        <br>
+
+        <label for="usefulFeatures">Useful Features:</label>
+        <br>
+        <input type="checkbox" id="Durability" name="usefulFeatures" value="Durability">
+        <label for="feature1">Durability</label>
+        <input type="checkbox" id="feature2" name="usefulFeatures" value="Feature 2">
+        <label for="feature2">Ease of use</label>
+        <input type="checkbox" id="feature3" name="usefulFeatures" value="Feature 3">
+        <label for="feature3">Performance</label>
+        <input type="checkbox" id="feature3" name="usefulFeatures" value="Feature 3">
+        <label for="feature3">Design</label>
+        <br>
+
+        <label for="writtenReview">Written Review:</label>
+        <br>
+        <textarea id="writtenReview" name="writtenReview"></textarea>
+        <br>
+
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName">
+        <br>
+
+        <input type="submit" value="Submit Review">
+    </form>
+
+    
+    <footer>
+        ©2024 😊 Balin Benissan 😊
+                  South Africa, Last Modified 1:13pm 6/4/2024
+    </footer>
+</body>
+
+</html>
